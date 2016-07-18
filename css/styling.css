@@ -3,34 +3,92 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: arial;
+}
+body{
+  margin: 15px;
 }
 h1 {
+  margin-top: 25px;
   margin-bottom: 15px;
+  color: red;
+  text-align: center;
 }
-
-section {
+div {
+  padding: 15px;
   float: left;
+
+}
+section {
+  position: relative;
+  border: 1px solid black;
+  padding: 25px 10px 10px 10px;
+  background-color: gray;
+  clear:both;
+
+
+ 
+
 }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+p{
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  /*position: relative;
+  left:11px;
+  bottom: 26px;
+  float:right;*/
+
+  font-weight: bold;
+  border: 1px solid black;
+  margin: 0px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
 }
 
+#st1{
+  background-color: turquoise;
+
+}
+
+#st2{
+  background-color: yellow;
+
+}
+
+#st3{
+  background-color: orange;
+
+}
 /********** Desktop Version **********/
 @media (min-width: 992px) {
- 
+  div {
+    width: 33.3333%;
+   
+  }
 
 }
 
 /********** Tablet Version **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  #sec1, #sec2 {
+    width: 50%;
+
+  }
+
+  #sec3 {
+    width: 100%;
+  }
+
 }
 
 /********** Mobile Version **********/
 @media (max-width: 767px) {
-  
+div{
+  width: 100%;
+}
 }
 
 
