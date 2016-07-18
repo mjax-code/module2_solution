@@ -1,0 +1,36 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+section {
+  float: left;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop Version **********/
+@media (min-width: 992px) {
+ 
+
+}
+
+/********** Tablet Version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Mobile Version **********/
+@media (max-width: 767px) {
+  
+}
+
+
